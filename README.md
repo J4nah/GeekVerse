@@ -1,2 +1,2 @@
 # GeekVerse
- Projeto de site para aula de analise de sistemas, usando HTML, CSS.
+ Projeto de site para aula de Linguagens de programação, usando HTML, CSS.
