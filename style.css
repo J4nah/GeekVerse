@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, #8C0375, #9303A6);
+
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header>h1 {
+    color: white;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.519);
+    margin-bottom: 20px;
+}
+
+header>p {
+    font-family: Electrolize, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.519);
+    color: white;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+nav {
+    background-image: linear-gradient(to right, #C004D9, #5D04D9);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.436);
+}
+
+nav>a {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav>a:hover {
+    background-color: #5D04D9;
+    color: #C004D9;
+}
+
+main {
+
+    background-color: rgba(255, 255, 255, 0.184);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.416);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    font-family: Electrolize, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.conteudo {
+    padding: 30px 20px;
+}
+
+.section-1 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+
+}
+
+.img1 {
+    width: 250px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.section-2 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 20px;
+
+}
+
+.img2 {
+    width: 250px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+footer {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    background-color: #5D04D9;
+    color: white;
+    text-align: center;
+    font-size: .6em;
+    padding: 10px;
+}
